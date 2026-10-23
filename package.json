@@ -1,0 +1,16 @@
+{
+  "name": "steam-library-exporter",
+  "version": "1.0.0",
+  "description": "Export your Steam library to JSON, including game names, app IDs, and hours played.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env index.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": ["steam", "library", "export", "json"],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
